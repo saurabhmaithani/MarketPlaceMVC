@@ -1,0 +1,54 @@
+﻿body {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Login Page  (Worlanyo) */
+
+.sub_title {
+    border: 0px solid red;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.btn-sign-up {
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -25px
+}
+
+#holder-sign-up {
+    margin-right: 40px;
+    position: absolute;
+    top: 20px;
+    position: absolute;
+    top: 40px;
+    right: 50px
+}
+
+.sub_title span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.login-background {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,113,133,1) 0%, rgba(0,212,255,1) 36%);
+}
+
+/* Enter Page title here  (name) */

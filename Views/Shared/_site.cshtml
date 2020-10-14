@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MarketPlace</title>
+    @Styles.Render("~/Content/css")
+
+</head>
+
+
+
+
+<body class="login-background">
+
+  
+    <div class="container body-content">
+
+
+        <div style="margin:160px auto; width:400px">
+
+            <div style="align-content:center; margin-bottom:30px">
+                <div style="margin:auto; width:200px"><img height="100" src="@Url.Content("~/Images/logo.png")" /></div>
+
+            </div>
+
+            <div class="sub_title">
+                <span>Building Product Selection Platform</span>
+            </div>
+
+        @RenderBody()
+
+        </div>
+
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year - MarketPlace</p>
+        </footer>
+    </div>
+
+
+
+
+
+    @Scripts.Render("~/bundles/bootstrap")
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "SearchPage";
+    Layout = "~/Views/Shared/_site.cshtml";
+}
+
+<div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+           
+            <select class="custom-select label-primary" id="slt-category">
+                <option selected>Category</option>
+                <option value="1">Mechanical</option>
+                <option value="2">Electrical</option>
+                <option value="3">Stationary</option>
+                <option value="4">Furniture</option>
+            </select>
+        </div>
+        <input type="text" class="form-control" placeholder="Search...">
+        <button style="margin-left:5px" class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+    </div>
+
+
+   
+</div>
